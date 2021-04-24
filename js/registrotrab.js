@@ -26,3 +26,10 @@ function validar_trabajador(){
         }
         return true;
 }
+
+function rut(){}
+function email(){}
+function nombre(){}
+function contra(){}
+function especialidad(){}
+function telefono(){}
