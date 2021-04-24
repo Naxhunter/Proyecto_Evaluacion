@@ -28,7 +28,7 @@
                 <div class="titulo"><h1>
                     Registro Trabajador
                 </h1></div>
-                <form action="" method="post" onsubmit="return validar()">
+                <form action="" method="post" onsubmit="return validar_trabajador()">
                     <label for="txtRut">Ingrese Rut: </label>
                     <input type="text" name="txtRut" id="rut" placeholder="Rut" required>
                     <div id="" class="error"></div>
@@ -41,11 +41,11 @@
                     <label for="txtPass">Ingrese Contraseña: </label>
                     <input type="password" name="txtPass" id="pass" placeholder="Contraseña" required>
                     <div id="" class="error"></div>
-                    <label for="txtEspecialidad"></label>
-                    <input type="text" name="txtEspecialidad" id="especialidad">
+                    <label for="txtEspecialidad">Ingrese Especialidad: </label>
+                    <input type="text" name="txtEspecialidad" id="especialidad" placeholder="Especialidad" required>
                     <div id="" class="error"></div>
-                    <label for="telefono"></label>
-                    <input type="text" name="txtTelefono" id="telefono">
+                    <label for="telefono">Ingrese Telefono: </label>
+                    <input type="text" name="txtTelefono" id="telefono" placeholder="Teléfono" required>
                     <div id="" class="error"></div>
                     <input type="submit" value="Enviar">
                 </form>
