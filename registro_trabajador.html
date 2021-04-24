@@ -28,8 +28,17 @@
                 <div class="titulo"><h1>
                     Registro Trabajador
                 </h1></div>
-                <form action="" method="post">
-                    
+                <form action="" method="post" onsubmit="return validar()">
+                    <label for="txtEmail">Ingrese Email: </label>
+                    <input type="email" name="txtEmail" id="email" placeholder="E-Mail" required>
+                    <div id="error" class="error"></div>
+                    <label for="txtName">Ingrese Nombre: </label>
+                    <input type="text" name="txtName" id="name" placeholder="Nombre" required>
+                    <div id="error_2" class="error"></div>
+                    <label for="txtPass">Ingrese Contraseña: </label>
+                    <input type="password" name="txtPass" id="pass" placeholder="Contraseña" required>
+                    <div id="error_3" class="error"></div>
+                    <input type="submit" value="Enviar">
                 </form>
             </div>
         </div>
@@ -44,6 +53,7 @@
         
     </div>
     <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="js/registrotrab.js"></script>
 </body>
 
 </html>
