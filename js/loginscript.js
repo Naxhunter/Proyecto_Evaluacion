@@ -19,13 +19,13 @@ function emailval(){
         document.getElementById('error_1').innerHTML = error;
         return false;
     }
+    return true;
 }
 
 function contrval(){
     var pass_user = document.getElementById('passlog').value;
     var num_pass = pass_user.length;
     if(num_pass < 8 || num_pass >30){
-        error_1 = "";
         error = "Mínimo 8 caracteres para la contraseña y máximo 30 caracteres."
         document.getElementById('error_2').innerHTML = error;
         return false;
