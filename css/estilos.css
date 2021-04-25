@@ -5,11 +5,14 @@ padding: 0;}
 body{
     background-color:#A0691F;
 }
-.contenedor .head .icono{
+.contenedor .head{
     height: 100px;
     width: 100px;
 }
-
+.icono{
+    height: 100px;
+    width: 100px;
+}
 .contenedor .body .carrusel img{
     height:200px;
     width:200px;
@@ -53,3 +56,11 @@ body{
     
     
 }
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
