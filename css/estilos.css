@@ -21,17 +21,21 @@ body{
     justify-content: center;
     border-top: 22px solid red;
     border-bottom: 22px solid red;
+    margin-top: 40px;
     /*position: fixed;*/
     background-color:#DCA002;
     /*position: absolute;*/
     width: 100%;
-    height: auto;
+    height: 100px;
 }
 .head .icon{
+    position: relative;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-left: -1500px;
 }
+
 .head .nav{
     padding-left: auto;
     padding-top: 20px;
@@ -51,24 +55,27 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    
-    
+       
 }
-
-  .izquierda {
+.izquierda {
     position: absolute;
     margin-top: -290px;
     margin-left: 52px;
     border-left: 22px solid red;
     border-right: 22px solid red;
     background-color: #DCA002;
-    height: 107.5%;
+    height: 108.5%;
     width: 100px;
     border-top: 22px solid red;
 
 }
 .footer{
-    position: absolute;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 200px;
+    width: 100%;
+    bottom: -600px;
 }
 .buscador{
     position:absolute;
