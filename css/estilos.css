@@ -10,15 +10,12 @@ body{
     width: 100px;
 }
 .icono{
-    height: 100px;
-    width: 100px;
+        position: relative;
+        left: auto;
+        top: -80px;
+        height: 240px;
+        width: 240px;
 }
-.contenedor .body .carrusel img{
-    height:200px;
-    width:200px;
-    border-radius: 5px;
-} 
-
 .head{
     display: flex;
     justify-content: center;
@@ -28,11 +25,12 @@ body{
     background-color:#DCA002;
     /*position: absolute;*/
     width: 100%;
+    height: auto;
 }
 .head .icon{
-    padding-right: 1300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .head .nav{
     padding-left: auto;
@@ -56,11 +54,35 @@ body{
     
     
 }
-.vl {
-    border-left: 6px solid green;
-    height: 500px;
+
+  .izquierda {
     position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
-  }
+    margin-top: -290px;
+    margin-left: 52px;
+    border-left: 22px solid red;
+    border-right: 22px solid red;
+    background-color: #DCA002;
+    height: 107.5%;
+    width: 100px;
+    border-top: 22px solid red;
+
+}
+.footer{
+    position: absolute;
+}
+.buscador{
+    position:absolute;
+    margin-left: 200px;
+    background-color: red;
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+}
+.buscar{
+    margin-top: 10px;
+    width: 80%;
+}
+.boton-index{
+    position:absolute;
+    border: 1px solid red;
+}
