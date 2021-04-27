@@ -103,3 +103,8 @@ body{
     position: fixed;
     right: 40px;
 }
+.contenedor_titulo{
+    margin-left: 40%;
+    width: 50%;
+    padding: 20px;
+}
