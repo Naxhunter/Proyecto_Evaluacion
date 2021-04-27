@@ -84,10 +84,10 @@ body{
 .buscador{
     position:absolute;
     margin-left: 200px;
-    background-color: red;
-    width: 40%;
+    width: 10%;
     height: 30px;
     padding: 10px;
+    border-radius: 15px;
 }
 .buscar{
     margin-top: 10px;
