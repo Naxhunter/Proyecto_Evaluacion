@@ -69,7 +69,8 @@ body{
     background-color: #DCA002;
     height: 109.9%;
     width: 100px;
-    border-top: 22px solid red;
+    border-top: 22px solid red; 
+    
 }
 .footer{
     display: flex;
