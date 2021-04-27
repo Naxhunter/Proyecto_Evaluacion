@@ -28,6 +28,8 @@ a{
     justify-content: center;
     align-items: center;
     position: absolute;
+    border-radius: 15px;
+	
 }
 .box{
 	width:380px;
