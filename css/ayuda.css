@@ -3,8 +3,12 @@
     
     body{
         background-color:#A0691F;
-        overflow-x: hidden;
+        overflow: hidden;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .contenedor .head{
+        height: 100px;
+        width: 100px;
     }
     
     .icono{
@@ -72,7 +76,7 @@
         border-left: 22px solid red;
         border-right: 22px solid red;
         background-color: #DCA002;
-        height: 114.9%;
+        height: 112.9%;
         width: 100px;
         border-top: 22px solid red;
     }
@@ -93,28 +97,30 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: red;
     border: 5px solid #ddd;
-    border-radius: 70px;
-    margin-left: -850px;
+    border-radius: 100px;
+    position: fixed;
+    left: 15%;
     top: 32%;
     padding: 5px;
     width: 24%;
     height: 40%;
 }
 .perfil img{
-    
-    width: 75%;
-    height: 75%;
-    padding: 20px;
-    margin-left:12px;
-    visibility:visible;
+    display: block;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
 }
 
 .contenedor .nombreusuario{
-    margin-top: -430px;
-    margin-left: -700px;
+    margin-top: -40%;
+    margin-left: -67%;
     font-size: 30px;
     color: #F7D840;
     position: absolute;
+    padding: auto;
 }
 
 .contenedor .botonimagen{
@@ -153,6 +159,8 @@
     width: 55%;
     height: 75%;
     left: 41.5%;
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 10px;
 }
@@ -205,5 +213,3 @@
     font-size: 25px;
     border-radius: 15px;
 }
-
-
