@@ -67,7 +67,7 @@ body{
     border-left: 22px solid red;
     border-right: 22px solid red;
     background-color: #DCA002;
-    height: 126.9%;
+    height: 130%;
     width: 100px;
     border-top: 22px solid red; 
     
@@ -86,14 +86,15 @@ body{
 .buscador{
     position:absolute;
     margin-left: 200px;
-    width: 10%;
+    width: 30%;
     height: 30px;
     padding: 10px;
     border-radius: 15px;
 }
 .buscar{
     margin-top: 10px;
-    width: 80%;
+    width: 100%;
+    border-radius: 30px;
 }
 .boton-index{
     position:absolute;
@@ -103,11 +104,13 @@ body{
     position: fixed;
     left: 250px;
     background-color: #DCA002;
+    z-index: 1;
 }
 .menu2{
     position: fixed;
     right: 40px;
     background-color: #DCA002;
+    z-index: 1;
 }
 .contenedor_titulo{
     margin-left: 40%;
