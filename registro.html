@@ -8,45 +8,49 @@
     <title>Document</title>
     <link rel="stylesheet" href="dist/css/lightbox.css">
     <link rel="stylesheet" href="css/placeholder.css">
+    
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 
 <body>
-        <div class="head">
-            <div class="nav">
-                <nav class="menu">
+    <div class="head">
+        <div class="nav">
+            <nav class="menu">
                 <a href="registro_principal.html">Registrar Usuario</a>
                 <img src="" alt="">
-                </nav>
-                <nav class="menu2">
+            </nav>
+            <nav class="menu2">
                 <a href="Index.html">Inicio</a>
                 <img src="" alt="">
                 <a href="ayuda.html">Ayuda</a>
                 <img src="" alt="">
-                </nav>
-            </div>
+            </nav>
         </div>
-        <div class="body">
-            <div class="izquierda">
-                <div class="icon"><img src="img/icono_taller.png" alt="Logo MakWeen" class="icono"></div>
-                <label for="administrar">Administrar</label>
-                <input type="button" name="administrar" id="administrar" class="administrar" value="Administrar">
+    </div>
+    <div class="body">
+        <div class="izquierda">
+            <div class="icon"><img src="img/icono_taller.png" alt="Logo MakWeen" class="icono"></div>
+            <label for="administrar">Administrar</label>
+            <input type="button" name="administrar" id="administrar" class="administrar" value="Administrar">
+        </div>
+        <div class="contenedor">
+            <div class="titulo">
+                <h1>
+                    Registrar Usuario
+                </h1>
             </div>
-            <div class="contenedor">
-            <div class="titulo"><h1>
-                Registrar Usuario
-            </h1></div>
-            <div class="contenedor-form">
+            <div class="form">
                 <form action="" method="post" onsubmit="return validar()">
-                    <label for="txtEmail">Ingrese Email: </label>
-                    <input type="email" name="txtEmail" id="email" placeholder="E-Mail" required>
-                    <div id="error" class="error"></div>
-                    <label for="txtName">Ingrese Nombre: </label>
-                    <input type="text" name="txtName" id="name" placeholder="Nombre" required>
-                    <div id="error_2" class="error"></div>
-                    <label for="txtPass">Ingrese Contraseña: </label>
-                    <input type="password" name="txtPass" id="pass" placeholder="Contraseña" required>
-                    <div id="error_3" class="error"></div>
-                    <input type="submit" value="Enviar">
+                    <label class="flex" for="txtEmail">Ingrese Email: </label>
+                    <input class="flex" type="email" name="txtEmail" id="email" placeholder="E-Mail" required>
+                    <div class="flex" id="error" class="error"></div>
+                    <label class="flex" for="txtName">Ingrese Nombre: </label>
+                    <input class="flex" type="text" name="txtName" id="name" placeholder="Nombre" required>
+                    <div class="flex" id="error_2" class="error"></div>
+                    <label class="flex" for="txtPass">Ingrese Contraseña: </label>
+                    <input class="flex" type="password" name="txtPass" id="pass" placeholder="Contraseña" required>
+                    <div class="flex" id="error_3" class="error"></div>
+                    <input class="flex" type="submit" value="Enviar" id="boton-env">
                 </form>
             </div>
         </div>

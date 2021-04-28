@@ -8,6 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="dist/css/lightbox.css" >
     <link rel="stylesheet" href="css/placeholder.css" >
+    
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 
 <body>
@@ -39,27 +41,29 @@
                 <div class="titulo"><h1>
                     Registro Trabajador
                 </h1></div>
-                <form action="" method="post" onsubmit="return validar_trabajador()">
-                    <label for="txtRut">Ingrese Rut: </label>
-                    <input type="text" name="txtRut" id="rut" placeholder="Rut" required minlength="9" maxlength="10">
-                    <div id="error_0" class="error"></div>
-                    <label for="txtEmail">Ingrese Email: </label>
-                    <input type="email" name="txtEmail" id="email" placeholder="E-Mail" required>
-                    <div id="error_1" class="error"></div>
-                    <label for="txtName">Ingrese Nombre: </label>
-                    <input type="text" name="txtName" id="name" placeholder="Nombre" required>
-                    <div id="error_2" class="error"></div>
-                    <label for="txtPass">Ingrese Contraseña: </label>
-                    <input type="password" name="txtPass" id="pass" placeholder="Contraseña" required>
-                    <div id="error_3" class="error"></div>
-                    <label for="txtEspecialidad">Ingrese Especialidad: </label>
-                    <input type="text" name="txtEspecialidad" id="especialidad" placeholder="Especialidad" required>
-                    <div id="error_4" class="error"></div>
-                    <label for="telefono">Ingrese Telefono: </label>
-                    <input type="text" name="txtTelefono" id="telefono" placeholder="Teléfono" required >
-                    <div id="error_5" class="error"></div>
-                    <input type="submit" value="Enviar">
-                </form>
+                <div class="form">
+                    <form action="" method="post" onsubmit="return validar_trabajador()">
+                        <label class="flex" for="txtRut">Ingrese Rut: </label>
+                        <input class="flex" type="text" name="txtRut" id="rut" placeholder="Rut" required minlength="9" maxlength="10">
+                        <div class="flex" id="error_0" class="error"></div>
+                        <label class="flex" for="txtEmail">Ingrese Email: </label>
+                        <input class="flex" type="email" name="txtEmail" id="email" placeholder="E-Mail" required>
+                        <div class="flex" id="error_1" class="error"></div>
+                        <label class="flex" for="txtName">Ingrese Nombre: </label>
+                        <input class="flex" type="text" name="txtName" id="name" placeholder="Nombre" required>
+                        <div class="flex" id="error_2" class="error"></div>
+                        <label class="flex" for="txtPass">Ingrese Contraseña: </label>
+                        <input class="flex" type="password" name="txtPass" id="pass" placeholder="Contraseña" required>
+                        <div class="flex" id="error_3" class="error"></div>
+                        <label class="flex" for="txtEspecialidad">Ingrese Especialidad: </label>
+                        <input class="flex" type="text" name="txtEspecialidad" id="especialidad" placeholder="Especialidad" required>
+                        <div class="flex" id="error_4" class="error"></div>
+                        <label class="flex" for="telefono">Ingrese Telefono: </label>
+                        <input class="flex" type="text" name="txtTelefono" id="telefono" placeholder="Teléfono" required >
+                        <div class="flex" id="error_5" class="error"></div>
+                        <input class="flex" type="submit" value="Enviar" id="boton-env">
+                    </form>
+                </div>
             </div>
         </div>
         
