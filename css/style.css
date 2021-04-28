@@ -32,17 +32,24 @@ a{
     border-radius: 15px;
 	
 }
+.boton-index{
+	background-color: black;
+	border-radius: 20px;
+	font-family: cursive;
+	font-size: 15px;
+	color:white;
+}
 .cajasoli{
 	margin-left: 300px;
-	margin-top: 60px;
+	margin-top: 0px;
 	width: 10%;
 	background-color:white;
 	
 }
 
 .cajaante{
-	margin-left: 1370px;
-	margin-top: 60px;
+	margin-left: 1335px;
+	margin-top: -15px;
 	width: 10%;
 	background-color:white;
 
