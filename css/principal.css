@@ -1,0 +1,18 @@
+.vinculo{
+    padding: 50px;
+    padding-top: 110px;
+    height: 350px;
+}
+.h2-center{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.vinculo a{
+    text-decoration: none;
+    color: #F7D840;
+}
+.img-prin{
+    border: 5px solid;
+    border-radius: 15px;
+}
