@@ -105,6 +105,45 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: rgb(99, 56, 1);
 }
+
+
+.contenedor .rechazar{
+    width: 450px;
+    height: 50px;
+    margin-top: 250px;
+    margin-right: -1300px;
+    position: absolute;
+}
+.contenedor .btnrechazo{
+    
+    width: 320px;
+    height: 40px;
+    border: 1px solid red;
+    padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.contenedor .aceptar{
+    width: 450px;
+    height: 50px;
+    margin-top: 450px;
+    margin-right: -1300px;
+    position: absolute;
+}
+.contenedor .btnacepto{
+    
+    width: 320px;
+    height: 40px;
+    border: 1px solid red;
+    padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+
 /*--responsive for mobile phone--*/
 @media(max-width:720px){
 	.box{
