@@ -1,0 +1,95 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body{
+        background-color:#A0691F;
+        overflow-x: hidden;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .contenedor .head{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .icono{
+            position: relative;
+            margin-left: -75px;
+            left: auto;
+            top:    80px;
+            height: 240px;
+            width: 240px;
+    }
+    .head{
+        display: flex;
+        justify-content: center;
+        border-top: 22px solid red;
+        border-bottom: 22px solid red;
+        margin-top: 55px;
+        /*position: fixed;*/    
+        background-color:#DCA002;
+        /*position: absolute;*/
+        width: 100%;
+        height: 100px;
+    }
+    .head .icon{
+        position: relative;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: -1205px;
+    }
+    .head .nav{
+        padding-left: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display:flex;
+        float:right;
+        position: static;
+        width:auto;
+        height:auto;
+    }
+    
+    .nav a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+           
+    }
+    
+    .menu{
+        position: fixed;
+        left: 250px;
+        background-color: #DCA002;
+    }
+    .menu2{
+        position: fixed;
+        right: 40px;
+        background-color: #DCA002;
+    }
+    .izquierda {
+        position: absolute;
+        margin-top: -290px;
+        margin-left: 52px;
+        border-left: 22px solid red;
+        border-right: 22px solid red;
+        background-color: #DCA002;
+        height: 122.9%;
+        width: 100px;
+        border-top: 22px solid red;
+    }
+    .contenedor{
+        margin-left: 250px;
+        margin-top: 3%;
+        width: 85%;
+        height: 70vh;
+        background-color:#d87524;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        border-radius: 15px;
+        
+    }
