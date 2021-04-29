@@ -21,62 +21,38 @@ a{
 	
 }*/
 .container{
-    margin-left: 280px;
-    width: 80%;
-    height: 65vh;
-    background-color:#d87524;
+    margin-left: 10%;
+    width: 25%;
+    height: 38vh;
+    right: 40%;
+    bottom: 10% ;
+    background-color:#A0691F;
     display:flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     border-radius: 15px;
-	
-}
-.boton-index{
-	background-color: black;
-	border-radius: 20px;
-	font-family: cursive;
-	font-size: 15px;
-	color:white;
-}
-.cajasoli{
-	margin-left: 300px;
-	margin-top: 0px;
-	width: 10%;
-	background-color:white;
-	
-}
-
-.cajaante{
-	margin-left: 1335px;
-	margin-top: -15px;
-	width: 10%;
-	background-color:white;
-
-}
-.cajabusc{
-	margin-left: 450px;
-	margin-top: -35px;
-	width: 30%;
-	background-color:white;
 }
 .box{
-	width:380px;
-	height:395px;
+	width: 50%;
+	height: 50%;
 	background-color:#F7D840;
 	border-radius: 10px;
 	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content:center;
 	box-sizing: border-box;
 	margin: 20px 10px;
+    position: relative;
+    left: 10%;
 }
 .model{
-	height: 350px;
+	height: 10%px;
 	max-height: 100%;
 	max-width: 100%;
+    position: relative;
 }
 .details{
 	display: flex;
@@ -91,12 +67,32 @@ a{
 	text-align: center;
 	margin-top: 20px;
 }
-
 .box:hover{
 	background-color: #17171d;
 	transform-style: preserve-3d;
 	transform: scale(1.02);
 	transition: all ease 0.3s;
+}
+
+.contenedor .infotrab{
+    margin-top: -600px;
+    margin-left: -1050px;
+    font-size: 20px;
+    color: #F7D840;
+    position: absolute;
+}
+.contenedor .contenedorinfo{
+    width: 60%;
+	height: 90%;
+    margin-top: -15px ;
+    margin-left: 550px;
+    font-size: 25px;
+    color: #F7D840;
+    position: absolute;
+    background-color:#DCA002;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(99, 56, 1);
 }
 
 /*--responsive for mobile phone--*/
