@@ -18,7 +18,6 @@ a{
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	
 }*/
 .container{
     margin-left: 10%;
@@ -73,7 +72,6 @@ a{
 	transform: scale(1.02);
 	transition: all ease 0.3s;
 }
-
 .contenedor .infoservicio{
     margin-top: -600px;
     margin-left: -1050px;
