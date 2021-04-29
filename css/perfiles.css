@@ -149,3 +149,13 @@
 
 
 
+.administrar{
+    position: relative;
+    margin-left: 10px;
+    top:    450px;
+    height: 80px;
+    width:80px;
+    color: rgb(255, 255, 67);
+    background-color: black;
+    font-size: 14px;
+}
