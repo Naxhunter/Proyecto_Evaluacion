@@ -148,38 +148,4 @@
 }
 
 
-.contenedor .solicitudayu{
-    margin-top: -40%;
-    margin-left: -59%;
-    font-size: 25px;
-    color: white;
-    position: absolute;
-    padding: auto;
-    border-radius: 30px;
 
-}
-
-.contenedor .botonayuda{
-    position: absolute;
-    border: 1px solid red;
-    margin-top: 10%;
-    margin-left: -47.2%;
-    padding: auto;
-    width: 450px;
-    height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    border-radius: 15px;
-}
-.contenedor .botonSoli{
-    position: absolute;
-    border: 1px solid red;
-    margin-top: 20.9%;
-    margin-left: 250px;
-    padding: auto;
-    width: 250px;
-    height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    border-radius: 15px;
-}
