@@ -1,13 +1,11 @@
-
 .foto img{
     height: auto;
     width: auto;
-    max-width: 239px;
-    max-height: 239px;
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 10px;
     margin: 10px; 
     z-index: 10;
-
 }
 .foto1 img{
     height: auto;
@@ -18,10 +16,7 @@
     margin: 10px;
     top: 300px;
     left: 300px;
-
 }
-
-
 .contenedorim .foto{
     margin-left: 250px;
     margin-top: 3%;
@@ -33,21 +28,30 @@
     align-items: center;
     position: absolute;
     border-radius: 15px;
-    
 }
 
-.contenedorim .foto1{
-    margin-left: 250px;
-    margin-top: 3%;
-    width: 85%;
-    height: 70vh;
-    background-color:#d87524;
+.contsup{
+    margin-left: 25px;
+    margin-top: -300px;
+    width: 0%;
+    height: 50vh;
     display:flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     border-radius: 15px;
-    
+}
+
+.continf{
+    margin-left: 0px;
+    margin-bottom: -300px;
+    width: 0%;
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
 }
 
 .h1{
@@ -67,6 +71,4 @@
     position: absolute;
     z-index: 10;
     height: 500px;
-
 }
-
