@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <link rel="stylesheet" href="css/placeholder.css">
+
+    <link rel="stylesheet" href="css/dolar.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="head">
+
+        <div class="nav">
+            <nav class="menu">
+                <a href="registro_principal.html">Registrar Usuario</a>
+                <img src="" alt="">
+            </nav>
+            <nav class="menu2">
+                <a href="Index.html">Inicio</a>
+                <img src="" alt="">
+                <a href="ayuda.html">Ayuda</a>
+                <img src="" alt="">
+            </nav>
+        </div>
+    </div>
+    <div class="body">
+        <div class="izquierda">
+            <div class="icon"><img src="img/icono_taller.png" alt="Logo MakWeen" class="icono"></div>
+            <label for="administrar">Administrar</label>
+            <input type="button" name="administrar" id="administrar" class="administrar" value="Administrar">
+        </div>
+        <div class="contenedor">
+            <div class="titulo">
+                <h1>
+                    RECUPERAR DOLAR Y EURO
+                </h1>
+            </div>
+            <div class="recuperar-dolar" id="valor_dolar"></div>
+            <div class="recuperar-euro" id="valor_euro"></div>
+        </div>
+    </div>
+
+
+    </div>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $.get("https://mindicador.cl/api/dolar", function (data) {
+                var dolar = data.serie[0].valor;
+                $("#valor_dolar").html("<div>Valor dolar: " + dolar + "</div>");
+            })
+        });
+        $(document).ready(function () {
+            $.get("https://mindicador.cl/api/euro", function (data) {
+                var dolar = data.serie[0].valor;
+                $("#valor_euro").html("<div>Valor euro: " + dolar + "</div>");
+            })
+        });
+    </script>
+</body>
+
+</html>
